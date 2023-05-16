@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+    background-color: #2B2D35;
+    font-family: 'Comfortaa', cursive;
+    color: #F9F6F2;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-radius: 0.5rem;
+    background-color:#23252D;
+    backdrop-filter: blur(0.5);
+    box-shadow: #002244;
+}
+
+form {
+    margin-right: 15px;
+    background-color: transparent;
+}
+ 
+
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    visibility: visible;
+  }
+  
+#menu li {
+    display: inline-block;
+    position: relative;
+    padding: 11px;
+  }
+  
+#menu li a {
+    display: block;
+    color: #F9F6F2;
+    backdrop-filter: blur(1);
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+#menu li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f1f1f1be;
+    padding: 0;
+    margin: 0;
+    min-width: 100%;
+    border-radius: 0.4rem;
+  }
+  
+#menu li:hover ul {
+    display: block;
+    background-color: #2B2D35;
+  }
+  
+#menu:hover {
+    background-color: #23252D;
+    border-radius: 0.4rem;
+    box-shadow: #374e66;
+  }
+
+li:hover {
+    color: #fff8f0;
+    opacity: 0.8;
+  } 
+  
+ 
+#search {
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.5rem;
+    outline: none;
+    visibility: visible;
+}
+
+a {
+    color: #fff8f0;
+}
+
+#btn1 {
+    background-color: #2B2D35;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 2px;
+    outline: none;
+    cursor: pointer;
+    height: 30px;
+    width: 65px;
+    visibility: visible;
+}
+
+#logo1 {
+    height: 20px;
+    width: 45px;
+    margin: 0%;
+}
+
+#search {
+    background-color: #2B2D35;
+    visibility: visible;
+}
+
+#first-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    box-shadow: #F9F6F2;
+}
+
+#second-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    box-shadow: #F9F6F2;
+}
+
+#fisrt-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#section-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+#title-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+#pictures {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    border-radius: 0.5rem;
+    margin: 1.5rem;
+    box-shadow: #F9F6F2;
+}
+
+img:hover {
+    opacity: 0.5;
+    box-shadow: #374e66;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-burguer-menu {
+    display: none;
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+}
+
+#menu-mini2 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f1f1f1be;
+    padding: 0;
+    margin: 0;
+    min-width: 100%;
+    border-radius: 0.4rem;
+    visibility: hidden;
+}
+
+p, h2 {
+    margin: 5rem;
+}
+
+@media only screen and ( max-width: 593px) {
+    #menu {
+        visibility: hidden;
+    }
+
+    ul {
+        visibility: hidden;
+    }
+
+    form {
+        visibility: hidden;
+    }
+
+    span {
+        visibility: hidden;
+    }
+
+    li {
+        visibility: hidden;
+    }
+    #search {
+        visibility: hidden;
+    }
+    
+    #btn1 {
+        visibility: hidden;
+    }
+    #logo-burguer-menu {
+        display: block;
+    }
+
+    .nav {
+        height: 70px;
+    }
+
+    #section-two {
+        margin-top: 0rem;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
